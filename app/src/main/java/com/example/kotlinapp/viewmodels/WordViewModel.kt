@@ -10,6 +10,11 @@ class WordViewModel(private val repository: WordRepository) : ViewModel(){
 
     val allWords: LiveData<List<Word>> = repository.allWords.asLiveData()
 
+    //delete
+    fun deleteAllWords() = viewModelScope.launch {
+        repository.deleteAllWords()
+    }
+
     fun insert(word: Word) = viewModelScope.launch {
         repository.insert(word)
     }
