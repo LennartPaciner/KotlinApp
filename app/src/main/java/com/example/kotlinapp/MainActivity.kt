@@ -17,8 +17,16 @@ import com.example.kotlinapp.viewmodels.WordViewModel
 import com.example.kotlinapp.viewmodels.WordViewModelFactory
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 
-//tut: https://developer.android.com/codelabs/android-room-with-a-view-kotlin#0
+//aufbau nach dem tut: https://developer.android.com/codelabs/android-room-with-a-view-kotlin#0
+
 // ist auch gut um nochmal durchzugehen für weiterführende doku links
+// weitere zum anschauen:
+// https://developer.android.com/courses/fundamentals-training/toc-v2 + https://developer.android.com/courses/fundamentals-training/overview-v2
+// https://developer.android.com/codelabs/kotlin-coroutines?index=..%2F..index#0
+// https://developer.android.com/training/dependency-injection
+// https://developer.android.com/ + https://developer.android.com/jetpack/guide
+// https://kotlinlang.org/docs/coroutines-basics.html
+// even more: https://developer.android.com/codelabs/android-room-with-a-view-kotlin#17
 
 class MainActivity : AppCompatActivity() {
 
