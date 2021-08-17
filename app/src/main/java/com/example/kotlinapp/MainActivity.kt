@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
 //tut: https://developer.android.com/codelabs/android-room-with-a-view-kotlin#0
+// ist auch gut um nochmal durchzugehen für weiterführende doku links
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
